@@ -7,7 +7,8 @@ CREATE TABLE department(
     numInstructors INT,
     name VARCHAR(20),
     dept_id INT PRIMARY KEY
-);CREATE TABLE instructor(
+);
+CREATE TABLE instructor(
     name VARCHAR(20),
     instructor_id INT PRIMARY KEY,
     age INT,
@@ -15,7 +16,8 @@ CREATE TABLE department(
     FOREIGN KEY (dept_id) REFERENCES department(dept_id) on delete
     set
         null
-);CREATE TABLE course(
+);
+CREATE TABLE course(
     name VARCHAR(20),
     course_id INT AUTO_INCREMENT PRIMARY KEY,
     dept_id INT,
@@ -26,7 +28,8 @@ CREATE TABLE department(
         FOREIGN KEY (dept_id) REFERENCES department(dept_id) on delete
     set
         null
-);CREATE TABLE student(
+);
+CREATE TABLE student(
     name VARCHAR(20),
     student_id INT PRIMARY KEY
 );
