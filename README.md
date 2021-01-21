@@ -32,3 +32,8 @@ Course and Student have a M-N relationship. I named relationship table
 course_id and student_id are the foreign keys and primary key is the combination
 of course_id and student_id. For each takes relationship, there is a grade
 associated with it.
+
+
+INSTRUCTIONS:
+
+Install MySQL from their website. Import this file into MySQL using command line client. 
