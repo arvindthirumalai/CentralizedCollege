@@ -37,3 +37,5 @@ associated with it.
 INSTRUCTIONS:
 
 Install MySQL from their website. Import this file into MySQL using command line client. 
+I've inputted sample observations and sample queries that can be run. User can enter his or her own
+observations and queries as well.
